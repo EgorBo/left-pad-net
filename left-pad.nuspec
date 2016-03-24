@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>left-pad</id>
-       <version>0.9.11</version>
+       <version>0.9.12</version>
        <title>left-pad</title>
        <authors>Egor Bogatov</authors>
        <owners>Egor Bogatov</owners>
@@ -10,7 +10,7 @@
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <tags>left-pad pad-left Leftpad padleft pad left</tags>
 	   <summary>it does left-pad!</summary>
-	   <description>Don't be so NIH, use this package!</description>
+	   <description>Don't reinvent the wheel, use this package!</description>
 	   <iconUrl>https://habrastorage.org/files/712/ee2/9e5/712ee29e55c24aac8af8a24f69dd2dce.png</iconUrl>
    </metadata>
    <files>
