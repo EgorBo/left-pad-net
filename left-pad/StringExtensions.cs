@@ -9,16 +9,7 @@ namespace left_pad
             if (len <= 0)
                 throw new InvalidOperationException();
 
-            if (string.IsNullOrEmpty(str))
-                return new string(ch, len);
-
-            var i = -1;
-            len = len - str.Length;
-            while (++i < len)
-            {
-                str = ch + str;
-            }
-            return str;
+            return new string(ch, Math.Max(len - str?.Length ?? 0, 0)) + str;
         }
     }
 }
