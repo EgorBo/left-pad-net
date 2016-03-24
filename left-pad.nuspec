@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>left-pad</id>
+       <version>0.9.10</version>
+       <title>left-pad</title>
+       <authors>Egor Bogatov</authors>
+       <owners>Egor Bogatov</owners>
+       <projectUrl>https://github.com/EgorBo/left-pad-net</projectUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <tags>left-pad pad-left Leftpad padleft pad left</tags>
+	   <summary>it does left-pad!</summary>
+	   <description>Don't be so NIH, use this package!</description>
+	   <iconUrl>https://habrastorage.org/files/712/ee2/9e5/712ee29e55c24aac8af8a24f69dd2dce.png</iconUrl>
+   </metadata>
+   <files>
+     <file src="left-pad/bin/release/left-pad.dll" target="lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/left-pad.dll" />
+   </files>
+</package>
