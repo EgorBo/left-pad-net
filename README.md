@@ -1,2 +1,6 @@
 # left-pad-net
-Don't be so NIH, use https://www.nuget.org/packages/left-pad/ instead of reinventing the Wheel.
+Don't reinvent the wheel, use left-pad;
+
+# install
+Install-Package left-pad
+https://www.nuget.org/packages/left-pad/
